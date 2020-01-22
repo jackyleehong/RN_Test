@@ -39,7 +39,7 @@ const Register = () => {
                 </View>
             </View>
             <View style={{flex:0.5,justifyContent:"center",alignItems:'center'}}>
-            <TouchableOpacity onPress={onRegister} style={{padding:20,backgroundColor:'#0000ff99',width:"50%",borderRadius:30,alignItems:'center',justifyContent:'center'}}>
+            <TouchableOpacity onPress={onRegister} style={{padding:10,backgroundColor:'#0000ff99',width:"50%",borderRadius:30,alignItems:'center',justifyContent:'center'}}>
                     <Text style={{color:"#ffffff99",fontWeight:'600',fontSize:18}}>Register</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={backToLogin} style={{marginVertical:10}}>

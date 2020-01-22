@@ -53,7 +53,7 @@ const Login =()=>{
                 </View>
             </View>
             <View style={{flex:0.5,justifyContent:"center",alignItems:'center'}}>
-                <TouchableOpacity onPress={onLogin} style={{padding:20,backgroundColor:'#0000ff22',width:"50%",borderRadius:30,alignItems:'center',justifyContent:'center'}}>
+                <TouchableOpacity onPress={onLogin} style={{padding:10,backgroundColor:'#0000ff22',width:"50%",borderRadius:30,alignItems:'center',justifyContent:'center'}}>
                     <Text style={{textAlign:'center'}}>Login</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={goToRegister} style={{marginVertical:10}}>
